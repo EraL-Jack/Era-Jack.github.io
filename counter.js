@@ -7,6 +7,10 @@ const min3Btn = document.getElementById('min3-btn');
 const add3Btn = document.getElementById('add3-btn');
 const resetBtn = document.querySelector('#reset');
 
+document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+})
+
 // To increment the value of counter
 incrementBtn.addEventListener('click', () => {
     counter++;
