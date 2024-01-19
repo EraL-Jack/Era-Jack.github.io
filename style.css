@@ -29,6 +29,7 @@
     border: 2px solid #2e8d46;
     color: white;
     margin: 20px;
+    display: flex;
 }
 #reset{
     font-size: 20px;
