@@ -21,7 +21,7 @@
 }
 #increment-btn, #decrement-btn, #reset, #min3-btn, #add3-btn{
     height: 100px;
-    width: 80px;
+    min-width: 80px;
     padding: 0 20px;
     border-radius: 5px;
     font-size: 40px;
