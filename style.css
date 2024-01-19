@@ -20,11 +20,12 @@
     justify-content: center;
 }
 #increment-btn, #decrement-btn, #reset, #min3-btn, #add3-btn{
-    height: 50px;
+    height: 100px;
     width: 80px;
-    padding: 0 40px;
-    border-radius: 10px;
+    padding: 0 20px;
+    border-radius: 5px;
     font-size: 40px;
+    margin-top: 20px;
     background-color: black;
     color: white;
     margin: 20px;
@@ -35,11 +36,16 @@
 }
 #reset{
     background-color: red;
+    height: 50px;
+}
+
+#min3-btn, #add3-btn{
+    height: 50px;
 }
 #counter-value{
     height: 100px;
-    min-width: 80px;
-    border-radius: 10px;
+    width: 80px;
+    border-radius: 5px;
     background-color: black;
     margin-top: 20px;
     font-size: 60px;
