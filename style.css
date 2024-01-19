@@ -37,14 +37,16 @@
     background-color: red;
 }
 #counter-value{
-    height: 50px;
+    height: 100px;
     min-width: 80px;
     border-radius: 10px;
     background-color: black;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
 }
