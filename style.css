@@ -30,6 +30,7 @@
     color: white;
     margin: 20px;
     display: flex;
+    text-align: center;
 }
 #reset{
     font-size: 20px;
