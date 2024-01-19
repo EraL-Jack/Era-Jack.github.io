@@ -4,8 +4,8 @@
     padding: 0px;
 }
 .container{
-    height: 200vh;
-    width: 200vw;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,6 +31,9 @@
     margin: 20px;
     display: flex;
     text-align: center;
+}
+#reset{
+    background-color: red;
 }
 #counter-value{
     height: 50px;
