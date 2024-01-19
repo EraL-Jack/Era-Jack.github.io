@@ -19,18 +19,19 @@
     display: flex;
     justify-content: center;
 }
-#increment-btn, #decrement-btn, #reset{
+#increment-btn, #decrement-btn, #reset, #min3-btn, #add3-btn{
     height: 50px;
-    width: 120px;
+    width: 80px;
     padding: 0 40px;
     border-radius: 10px;
     font-size: 40px;
-    background-color: #2e8d46;
-    border: 2px solid #2e8d46;
+    background-color: black;
     color: white;
     margin: 20px;
     display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 #reset{
     background-color: red;
@@ -39,10 +40,11 @@
     height: 50px;
     min-width: 120px;
     border-radius: 10px;
-    background-color: rgba(255, 0, 0, 0.187);
+    background-color: black;
     margin-top: 20px;
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
