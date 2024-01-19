@@ -3,8 +3,8 @@
     margin: 0px;
     padding: 0px;
 }
-body {
-    touch-action: none;
+html, body {
+    touch-action: manipulation;
 }
 .container{
     height: 100vh;
