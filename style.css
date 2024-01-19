@@ -32,9 +32,6 @@
     display: flex;
     text-align: center;
 }
-#reset{
-    font-size: 20px;
-}
 #counter-value{
     height: 50px;
     min-width: 120px;
